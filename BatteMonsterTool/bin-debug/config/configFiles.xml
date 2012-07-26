@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<setting autoExit="false" />
+	<!--  导入文件  -->
+	<imports>
+		<file name="npc" src="../out/npc.csv" />
+		<file name="monster_set" src="../out/monster_set.csv" />
+		<file name="monster_prop" src="../out/monster_prop.csv"  />
+	</imports>
+	
+	<!--  输出文件  -->
+	<exports>
+		<file name="battleMonsters" src="../out/battleMonsters.csv" />
+		<file name="monster_prop_client" src="../out/monster_prop_client.csv" />
+	</exports>
+</root>
